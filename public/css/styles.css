@@ -1,0 +1,70 @@
+
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+main {
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto; /* Centra el contenido horizontalmente */
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+/* Estilos específicos para las secciones */
+section {
+    margin-bottom: 40px;
+}
+
+h2 {
+    border-bottom: 2px solid #333;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    margin-bottom: 10px;
+}
+.precio {
+    color: blue; /* Cambia el color a tu preferencia */
+}
+
+/* Estilos responsive */
+@media only screen and (max-width: 768px) {
+    /* Ajusta los estilos para pantallas de hasta 768px de ancho */
+    h1 {
+        font-size: 24px;
+    }
+    h2 {
+        font-size: 20px;
+    }
+}
+
+/* Estilos para la descripción */
+.descripcion {
+    display: none;
+    margin-top: 5px;
+    padding: 5px;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+}
